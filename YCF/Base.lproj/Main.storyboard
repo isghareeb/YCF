@@ -16,26 +16,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You Can Fix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nab-P0-1Kw">
-                                <rect key="frame" x="72" y="89" width="270" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All about lion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHx-nv-CLU">
+                                <rect key="frame" x="72" y="177" width="270" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="lb8-mp-Uhb"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ttD-ZS-lpo">
-                                <rect key="frame" x="0.0" y="275" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfh-Kd-FoU">
-                                <rect key="frame" x="137" y="422" width="141" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final app" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nab-P0-1Kw">
+                                <rect key="frame" x="72" y="89" width="270" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="JWe-9a-8FB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfh-Kd-FoU">
+                                <rect key="frame" x="150" y="731" width="141" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="r2i-pG-faO"/>
+                                </constraints>
                                 <state key="normal" title="Search"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="6iE-bx-wA4">
+                                <rect key="frame" x="61" y="303" width="293" height="269"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="269" id="S2m-Vx-2h9"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nab-P0-1Kw" firstAttribute="leading" secondItem="PHx-nv-CLU" secondAttribute="leading" id="HHG-VZ-JBD"/>
+                            <constraint firstItem="Jfh-Kd-FoU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="Jm5-7Z-11G"/>
+                            <constraint firstItem="6iE-bx-wA4" firstAttribute="top" secondItem="PHx-nv-CLU" secondAttribute="bottom" constant="51" id="cUi-zK-5Tf"/>
+                            <constraint firstItem="nab-P0-1Kw" firstAttribute="trailing" secondItem="PHx-nv-CLU" secondAttribute="trailing" id="dAX-aL-O9j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Jfh-Kd-FoU" secondAttribute="bottom" constant="79" id="eht-5H-tYP"/>
+                            <constraint firstItem="nab-P0-1Kw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="iZu-Xs-D5w"/>
+                            <constraint firstItem="6iE-bx-wA4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="qj5-9G-Aua"/>
+                            <constraint firstItem="PHx-nv-CLU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="133" id="qnV-Qd-sTa"/>
+                            <constraint firstItem="nab-P0-1Kw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="svF-b9-qqx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jfh-Kd-FoU" secondAttribute="trailing" constant="123" id="tgo-6G-ceN"/>
+                            <constraint firstItem="PHx-nv-CLU" firstAttribute="centerX" secondItem="6iE-bx-wA4" secondAttribute="centerX" id="yhc-u4-cgM"/>
+                            <constraint firstItem="nab-P0-1Kw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="yyc-ou-LzY"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -44,6 +72,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="images.jpeg" width="217" height="232"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

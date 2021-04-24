@@ -13,6 +13,7 @@
 		244804FB2634565E00FA74E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244804F92634565E00FA74E3 /* Main.storyboard */; };
 		244804FD2634565E00FA74E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244804FC2634565E00FA74E3 /* Assets.xcassets */; };
 		244805002634565E00FA74E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244804FE2634565E00FA74E3 /* LaunchScreen.storyboard */; };
+		24F52F7F2634AB4700C64D4D /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24F52F7E2634AB4700C64D4D /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		244804FC2634565E00FA74E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		244804FF2634565E00FA74E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		244805012634565E00FA74E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F52F7E2634AB4700C64D4D /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		244804E72634565E00FA74E3 = {
 			isa = PBXGroup;
 			children = (
+				24F52F812634ABD700C64D4D /* images */,
 				244804F22634565E00FA74E3 /* YCF */,
 				244804F12634565E00FA74E3 /* Products */,
 			);
@@ -65,6 +68,14 @@
 				244805012634565E00FA74E3 /* Info.plist */,
 			);
 			path = YCF;
+			sourceTree = "<group>";
+		};
+		24F52F812634ABD700C64D4D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				24F52F7E2634AB4700C64D4D /* images.jpeg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				244805002634565E00FA74E3 /* LaunchScreen.storyboard in Resources */,
+				24F52F7F2634AB4700C64D4D /* images.jpeg in Resources */,
 				244804FD2634565E00FA74E3 /* Assets.xcassets in Resources */,
 				244804FB2634565E00FA74E3 /* Main.storyboard in Resources */,
 			);
